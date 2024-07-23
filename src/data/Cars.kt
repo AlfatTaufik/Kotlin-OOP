@@ -4,7 +4,16 @@ class Cars(brand: String, machine: String, year:Int = 2020 ) {
     init {
         println("Congratulations your new cars is  ${brand}")
     }
-    var nameBrand: String = brand
-    var machineCar: String = machine
-    var year:Int = year
+
+    constructor(brandName: String, machineName: String) : this(brandName, machineName, 2003){
+        println("Its secondary when people doesnt insert their car year")
+    }
+
+    constructor(brandName: String) : this(brandName, " "){
+        println("Its secondary when people doesnt insert their machine")
+    }
+
+    var brand: String = brand
+    var machineName: String = machine
+    var year: Int = year
 }
