@@ -8,4 +8,6 @@ fun main() {
     alfat.lastName = "Taufik"
     alfat.fullname = alfat.firstName + " " + alfat.lastName
     println(alfat.fullname)
+
+    alfat.sayHi("Sazki")
 }
