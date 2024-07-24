@@ -8,4 +8,8 @@ class Person {
     fun sayHi(name:String){
         println("Hello sir ${name}, iam ${this.firstName}")
     }
+
+    fun sayHi(name:String, age:Int){
+        println("Hello sir ${name}, $age iam ${this.firstName}")
+    }
 }

@@ -10,4 +10,5 @@ fun main() {
     println(alfat.fullname)
 
     alfat.sayHi("Sazki")
+    alfat.sayHi("Chelsea", 90)
 }
