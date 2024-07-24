@@ -11,7 +11,7 @@ fun main() {
     println(porsche.brand)
 
     var lambo = Cars("Lambo")
-
+    println(lambo.brand)
     var house = Address("Sesame")
 
     var home = Address("Sesasaa", 15)

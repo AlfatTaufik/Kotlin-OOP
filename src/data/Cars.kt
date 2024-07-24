@@ -1,6 +1,6 @@
 package data
 
-class Cars(brand: String, machine: String, year:Int = 2020 ) {
+class Cars(var brand: String,var machine: String,var year:Int = 2020 ) {
     init {
         println("Congratulations your new cars is  ${brand}")
     }
@@ -12,8 +12,4 @@ class Cars(brand: String, machine: String, year:Int = 2020 ) {
     constructor(brandName: String) : this(brandName, " "){
         println("Its secondary when people doesnt insert their machine")
     }
-
-    var brand: String = brand
-    var machineName: String = machine
-    var year: Int = year
 }
