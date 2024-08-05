@@ -1,6 +1,6 @@
 package data
 
-class Laptop(name: String) {
+class Laptop(val name: String) {
 }
 
-class Computer(name: String)
+class Computer(val name: String)

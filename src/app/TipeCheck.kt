@@ -1,12 +1,13 @@
 package app
 
+import data.Laptop
+
 class TipeCheck() {
     fun printObject(any: Any){
-        if (any is String){
-            println("Any is String")
-        }
-        if (any is Int){
-            println("Any is Int")
-        }
+       when(any) {
+           is Laptop -> println("Laptop with name ${any.name}")
+           is String -> println("Its string")
+           is Int -> println("Its int")
+       }
     }
 }
