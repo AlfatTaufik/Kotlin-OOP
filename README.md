@@ -1,4 +1,4 @@
-# Kotlin OOP Example
+# Kotlin OOP Mine
 
 This repository contains examples and exercises demonstrating Object-Oriented Programming (OOP) principles using Kotlin. It is designed to help beginners understand the basics of OOP in Kotlin through practical examples.
 
