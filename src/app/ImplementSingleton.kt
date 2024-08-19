@@ -9,4 +9,5 @@ fun main() {
 
     CompObject.compFunc()
     println(CompObject.value)
+    println(CompObject.color)
 }
